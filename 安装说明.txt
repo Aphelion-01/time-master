@@ -1,0 +1,16 @@
+Time Master 0.4.0
+
+适用：Apple Silicon Mac，macOS 26 或更高版本。
+
+安装：将 Time Master.app 拖到旁边的 Applications 文件夹，然后从 Applications 打开。
+更新：先从菜单栏退出旧版，再替换 Applications 中的 Time Master.app。
+
+本软件常驻菜单栏，没有普通主窗口。点击菜单栏图标添加事件，更多菜单 → 设置，可调整桌面图层。
+已有事件、位置、尺寸会沿用本机数据。安装包不包含演示事件或个人数据。
+三种图层：始终置顶、普通窗口、固定桌面。固定桌面仅改变层级，不会锁定拖动与缩放。
+
+这是本地 ad-hoc 签名构建，未经过 Apple 公证；并非 Developer ID 公证发行版。
+数据位置：~/Library/Application Support/TimeMaster/events.json
+
+组合记录：菜单栏点击“新建组合”，选择至少两个事件。支持余量对照、共同时间轴、并列卡片；组合可以整体拖动、缩放及切换桌面图层。
+组合只引用原事件，解散不会删除事件。新备份包含事件与组合，也能导入旧版事件备份。
